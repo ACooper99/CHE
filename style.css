@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+  font-family: "Bauhaus 93";
+  font-size: 35px;
+  color: black;
+}
+
+
+#alertButtonF {
+  background: none;
+  border-style: none;
+  border: 2px solid black;
+  padding: 10px;
+  color: black;
+  text-align:center;
+  font-family: "Bauhaus 93";
+  margin: 20px 40px 0px 0px;
+}
+
+#alertButtonF:hover {
+  background-color: black;
+  color: purple;
+  font-family: "Chalkboard";
+}
+#alertButtonG {
+  background: none;
+  border-style: none;
+  border: 2px solid black;
+  padding: 10px;
+  color: black;
+  text-align:center;
+  font-family: "Bauhaus 93";
+  margin: 20px 0px 0px 40px;
+}
+
+#alertButtonG:hover {
+  background-color: black;
+  color: purple;
+  font-family: "Chalkboard"
+}
+body {
+  text-align: center;
+  font-family: "georgia";
+  background-color: purple;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+background: rgb(63,76,107); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(63,76,107,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,76,107,1)), color-stop(100%,rgba(63,76,107,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+}
+
+
+  img {
+  width: 400px;
+  margin: -20px 0px 0px 0px;
+  }
+#container {
+  height:300px;
+  width:400px;
+  margin: auto;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+#surprise{
+	display: none;
+}
+
